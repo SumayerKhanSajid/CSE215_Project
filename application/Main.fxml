@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" spacing="10">
+    <Button text="Login as Doctor" onAction="#loginAsDoctor" />
+    <Button text="Login as Patient" onAction="#loginAsPatient" />
+    <Button text="Signup as Patient" onAction="#signupAsPatient" />
+    <Button text="Exit" onAction="#exitApplication" />
+</VBox>
